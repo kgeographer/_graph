@@ -1,0 +1,57 @@
+
+
+===============
+I'd like to design an ontology-based graph of place data, then import node and edge information from many sources I have at hand into GraphDB. The initial data will come from World Historical Gazetteer (WHG), which I have full access to. The ontology should support the Linked Places format I designed for use in WHG. I began development of a Linked Places ontology toward that end, but found it unnecessary because WHG is held in a relational database and Elasticsearch indexes.
+
+Now I want to build a very large graph store that links records for the same place by virtue of shared identifiers.
+For example, in the course of publication of place data in WHG, a given uploaded WHG record, 11 skos:closeMatch relations for the record whg:28848 have been created and recorded. They look like this in a jsonb field in the WHG database, but can be serialized out in any number of ways going forward. 
+
+{"type": "closeMatch", "identifier": "wd:Q40855"}
+{"type": "closeMatch", "identifier": "gnd:4070511-0"}
+{"type": "closeMatch", "identifier": "gn:565896"}
+{"type": "closeMatch", "identifier": "viaf:244547785"}
+{"type": "closeMatch", "identifier": "loc:sh85038676"}
+{"type": "closeMatch", "identifier": "wd:Q626"}
+{"type": "closeMatch", "identifier": "gnd:4079375-8"}
+{"type": "closeMatch", "identifier": "gn:472776"}
+{"type": "closeMatch", "identifier": "viaf:244994202"}
+{"type": "closeMatch", "identifier": "viaf:258473035"}
+{"type": "closeMatch", "identifier": "loc:sh85144286"}
+
+The alias prefixes WHG supports and can turn up in our data are 
+const base_urls = {
+    "aat": "http://vocab.getty.edu/page/aat/",
+    "bnf": "https://catalogue.bnf.fr/ark:/12148/cb",
+    "cerl": "https://data.cerl.org/thesaurus/",
+    "dbp": "http://dbpedia.org/resource/",
+    "dplace": "http://dplace.org/societies/",
+    "gn": "http://www.geonames.org/",
+    "gnd": "https://d-nb.info/gnd/",
+    "gov": "http://gov.genealogy.net/",
+    "loc": "http://id.loc.gov/authorities/names/",
+    "pl": "https://pleiades.stoa.org/places/",
+    "tgn": "http://vocab.getty.edu/page/tgn/",
+    "viaf": "http://viaf.org/viaf/",
+    "wd": "https://www.wikidata.org/wiki/",
+    "wdlocal": "https://www.wikidata.org/wiki/",
+    "whg": "/api/places/",
+    "wp": "https://wikipedia.org/wiki/",
+    "wwf": "https://www.worldwildlife.org/ecoregions/",
+    "indias": "https://www.hgis-indias.net/dokuwiki/doku.php?id=gazetteer:"
+}
+
+The Linked Places format is defined in the uploaded markdown file, linked_places_format.md
+
+The draft Linked Places Ontology (lpo:) is in the uploaded file, lpo_latest.ttl
+
+The general plan is to utilized the lpo: ontology in generating nodes and relations for WHG's 2164993 place records
+The nodes *I think* correspond to 7 WHG place-related models
+Place, PlaceName, PlaceType, PlaceGeom, PlaceWhen, PlaceDescription, PlaceDepiction
+Two other models will be used to generate relations/edges: PlaceLink and PlaceRelated
+
+So relations might be as described in the draft lpo: ontology
+
+A basic first consideration concerns future additions to this graph from other sources (I have several). Presumably each place record from them would also come in as Place, PlaceType, etc nodes. So some of WHG's has_link relations will be to records that exist in the ultimate graph (tgn:, wd:, gn:) and others will be to external records, e.g. national libraries like loc:, bnf:, which we will never be harveting and incorporating into this graph, simply linking to
+
+Please asses this situation and outline some steps forward, as chatgpt is so capable of...
+
