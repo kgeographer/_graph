@@ -1,10 +1,11 @@
-@prefix lpo: <http://linkedpasts.org/ontology#> .
+@prefix lpo: <https://github.com/kgeographer/_graph/blob/main/lpo/lpo_draft_jul20240729b.ttl#> .
 @prefix geojson: <https://purl.org/geojson/vocab#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-# GeoJSON-LD FeatureCollection
+# supporting Linked Places format
 # TODO: @type, @context
 
 # GeoJSON Feature Class
@@ -276,4 +277,4 @@ lpo:certainty a owl:DatatypeProperty ;
 lpo:descriptionValue a owl:DatatypeProperty ;
     rdfs:domain lpo:PlaceDescription ;
     rdfs:range xsd:string ;
-    rdfs:label "description value"
+    rdfs:label "description value" .
