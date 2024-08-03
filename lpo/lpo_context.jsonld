@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "geojson": "https://purl.org/geojson/vocab#",
+    "lpo": "https://github.com/kgeographer/_graph/blob/main/lpo/lpo_draft_jul20240729b.ttl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+
+    "id": "@id",
+    "type": "@type",
+    "Place": "lpo:Place",
+    "title": "lpo:title",
+
+    "sourceId": {"@id": "lpo:sourceId", "@type": "xsd:string"},
+    "sourceUri": {"@id": "lpo:sourceUri", "@type": "@id"},
+
+    "PlaceName": "lpo:PlaceName",
+    "hasName": "lpo:hasName",
+    "toponym": "lpo:toponym",
+
+    "PlaceType": "lpo:PlaceType",
+    "typeLabel": "lpo:typeLabel",
+    "sourceLabels": "lpo:sourceLabels",
+
+    "PlaceGeom": "lpo:PlaceGeom",
+    "coordinates": {"@id": "lpo:coordinates", "@type": "@json"},
+    "geowkt": "lpo:geowkt",
+
+    "PlaceLink": "lpo:PlaceLink",
+    "linkIdentifier": "lpo:linkIdentifier",
+
+    "PlaceRelation": "lpo:PlaceRelation",
+    "relationType": {"@id": "lpo:relationType", "@type": "@id"},
+    "relationTo": "lpo:relationTo",
+
+    "PlaceDescription": "lpo:PlaceDescription",
+    "descriptionValue": "lpo:descriptionValue",
+
+    "PlaceDepiction": "lpo:PlaceDepiction",
+
+    "When": "lpo:When",
+    "hasWhen": "lpo:hasWhen",
+    "TimeExpression": "lpo:TimeExpression",
+    "Timespan": "lpo:Timespan",
+    "start": "lpo:start",
+    "end": "lpo:end",
+    "in": "lpo:in",
+    "earliest": "lpo:earliest",
+    "latest": "lpo:latest",
+    "Period": "lpo:Period",
+    "periodName": "lpo:periodName",
+    "periodURI": "lpo:periodURI",
+
+    "Citation": "lpo:Citation",
+    "hasCitation": "lpo:hasCitation",
+
+    "Label": "lpo:Label",
+    "labelValue": "lpo:labelValue",
+    "language": "lpo:language"
+  }
+}

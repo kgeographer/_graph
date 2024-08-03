@@ -1,0 +1,1922 @@
+{
+  "@context": "https://github.com/kgeographer/_graph/blob/main/lpo/lpo_context.jsonld",
+  "@graph": [
+    {
+      "id": 26960,
+      "title": "Abaty Cwm Hir",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Abaty Cwm Hir",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Abbey Cum Hir",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1851"
+                    }
+                  }
+                ]
+              },
+              "year": "1851",
+              "label": "Population tables 2, Table [1]"
+            }
+          ]
+        },
+        {
+          "toponym": "Abbey Cwm Hir",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            }
+          ]
+        },
+        {
+          "toponym": "Abbey Cwmhir",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            }
+          ]
+        },
+        {
+          "toponym": "Abbeycwmhir",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1951"
+                    }
+                  }
+                ]
+              },
+              "year": "1951",
+              "label": "County Report, Table 3"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "end": {
+                "in": "1969"
+              },
+              "start": {
+                "in": "1851"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested between 1851 and 1969",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -3.40795,
+            52.35473
+          ],
+          "geowkt": "POINT (-3.40795 52.35473)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Radnorshire",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17429",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABBEY-CWM-HIR</b>, a parochial chapelry in Rhayader district, Radnor; 6 miles NNW of the Central Wales railway below Penybont, and 6&frac12; ENE of Rhayader. Post Town, Penybont. Acres, 10,965. Pop. 537. Houses, 96. The name signifies the Abbey of the Long Vale. The surface lies along the Clywedog, a tributary of the Ithon; and is a charming, fertile bottom, environed and overhung by picturesque wooded hills. A Cistertian Abbey was founded here, in 1143, by Cadwathelan ap Madoc; and destroyed, in 1401, by Owen Glendower. The property belonged, in the 17th century, to Sir Wm. Fowler, concerning whom it was said,-</p><blockquote><p>There is neither a park nor a deer<br/>To be seen in all Radnorshire,<br/>Nor a man with five hundred a year<br/>Save Fowler of Abbey-Cwm-Hir.</p></blockquote><p>The Abbey church was 255 feet long and 73 feet wide but only a few fragments of it remain. The mansion of F. Philips, Esq., partly built with the stones of the church in 1816, stands adjacent. A Roman road goes up the vale past the Abbey, toward the valley of the Marteg. The living of Abbey-Cwm-Hir is a vicarage in the diocese of St David's. Value, &pound;61. Patron, G. H. Philips, Esq. The church was rebuilt in 1867, and is in the Continental first pointed style.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26960",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/1407",
+      "sourceId": "1407"
+    },
+    {
+      "id": 27189,
+      "title": "Abbotsham",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Abbotsham",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1979"
+                    }
+                  }
+                ]
+              },
+              "year": "1979",
+              "label": "Local Administrative Units: Southern England"
+            }
+          ]
+        },
+        {
+          "toponym": "Albotsham",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1831"
+                    }
+                  }
+                ]
+              },
+              "year": "1831",
+              "label": "Abstract of answers, Table [1]"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "end": {
+                "in": "1979"
+              },
+              "start": {
+                "in": "1831"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested between 1831 and 1979",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -4.25396,
+            51.02352
+          ],
+          "geowkt": "POINT (-4.25396 51.02352)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Devon",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17488",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABBOTSHAM</b>, a parish in Bideford district, Devon; between Taw river and Barnstaple bay, 1&frac12; mile W of Bideford r. station. It has a post office under Bideford; and contains the hamlet of Shepperton. Acres, 1,758. Real property, &pound;2,267. Pop. 365. Houses, 67. The property is subdivided. Odun, Earl of Devon, in 878. vanquished and slew here the Danish invader Hubba, at Kenwith Castle. The living is a vicarage in the diocese of Exeter. value, &pound;159.* Patron, E. U. Vidal, Esq. The church is a plain old structure with a square tower. There are a small Baptist chapel, and charities &pound;11.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/27189",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/1647",
+      "sourceId": "1647"
+    },
+    {
+      "id": 27569,
+      "title": "Abdon",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Abdon",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1991"
+                    }
+                  }
+                ]
+              },
+              "year": "1991",
+              "label": "Local Administrative Units: Northern England"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "end": {
+                "in": "1991"
+              },
+              "start": {
+                "in": "1872"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested between 1872 and 1991",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -2.61784,
+            52.47568
+          ],
+          "geowkt": "POINT (-2.61784 52.47568)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Shropshire",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17430",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABDON</b>, a parish in Ludlow district, Salop; under the Clee hills, 7 miles E of Marsh Brook r. station, and 9 NNE of Ludlow. Post Town, Burwarton under Bridgnorth. Acres, 1,134. Real property, &pound;890. Pop., 170. Houses, 33. The property is divided among a few. The living is a rectory in the diocese of Hereford. Value, &pound;147.* Patron, the Earl of Pembroke. The church is tolerable.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/27569",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/2044",
+      "sourceId": "2044"
+    },
+    {
+      "id": 26961,
+      "title": "Aber",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Aber",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            }
+          ]
+        },
+        {
+          "toponym": "Abergarthcelyn",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Abergwyngregyn",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "end": {
+                "in": "1969"
+              },
+              "start": {
+                "in": "1872"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested between 1872 and 1969",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -4.0094,
+            53.22711
+          ],
+          "geowkt": "POINT (-4.0094 53.22711)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Caernarvonshire",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17459",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABER</b>, a village and a parish in Bangor district, Carnarvon. The village stands on the coast, at the mouth of the Gwyngregyn rivulet, 4&frac34; miles E of Bangor. It has a post office under Bangor, a station on the Chester and Holyhead railway, and a comfortable inn. It is a charming place, and is much frequented by tourists. The views all round, and in the neighborhood, over sea and land, are rich and varied; and some of them are panora mic and extensive. The Lavan sands extend in front, dry for 4 miles at low water; and may be crossed on foot, with a guide, to the ferry of Beaumaris. The glen of the Gwyngregyn, narrow and romantic, strikes about 2 miles inland flanked on one side by a well-wooded lofty hill,-on the other side by the stupendous rock of Maes y Gaer; and is blocked at the head by the dark, vast, concave precipice of the hill Bera, over which falls the famous cataract Rhayadr Mawr. The cataract is fringed with ash trees; and first breaks on the cliffs into three or four parts, then makes a sheer leap of more than 60 feet. An artificial conical mound, near the village, was the site of a Palace of the Welsh princes, where Llewelyn the Great received the summons to surrender his rights to Edward I. of England. A field, not far off, called Cae Gwilym Dhu, \"Black William's Field,\" was the scene of the summary execution of the Norman baron, William de Braose, whom Llewelyn ap Iorwerth had taken prisoner, and whom he suspected of an intrigue with his princess. A well-known Welsh distich, alluding to this event, records the following question and answer:-</p><blockquote><p>'Lovely princess,' said Llewelyn,<br/>`What will yon give to see your Gwilym?'<br/>`Wales and England, and Llewelyn,<br/>I'd give them all to see my Gwilym.'</p></blockquote><p>The parish of Aber comprises 8,833 acres; of which 1,515 are water. Real property, &pound;2,454. Pop., 582. Houses, 116. The property is divided among a few. The living is a rectory in the diocese of Bangor. Value, &pound;340.* Patron, the Hon. Col. D. Pennant.-The church is ancient, with a square tower, in moderate condition. There are chapels for Calvinistic Methodists and Wesleyans. There is also a free school, which was founded about 1719 by Dr. Jones, Dean of Bangor.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26961",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/1408",
+      "sourceId": "1408"
+    },
+    {
+      "id": 26274,
+      "title": "Aberaeron",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Aberaeron",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": ""
+                    }
+                  }
+                ]
+              },
+              "year": "",
+              "label": "Statement of the Names of the Several Unions and Poor Law Parishes of England and Wales; and of the Population, Area, and Rateable Value thereof in 1881"
+            }
+          ]
+        },
+        {
+          "toponym": "Aberayron",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1891"
+                    }
+                  }
+                ]
+              },
+              "year": "1891",
+              "label": "Population tables 2, Table 4"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "start": {
+                "in": "1969"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested in 1969",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -4.25774,
+            52.23984
+          ],
+          "geowkt": "POINT (-4.25774 52.23984)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Cardiganshire",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17265",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABERAYRON</b>, a small seaport town and a district in Cardigan. The town stands in the parishes of Henfynyw, and Llanddewi-Aberarth, at the mouth of the Ayron river, 16 miles SSW of Aberystwith, and 13 miles NW of Lampeter r. station. It has two piers, enclosing a small harbour, and owns about 40 vessels. It was long a retired village, but has become a market-town and an esteemed watering-place. The views around it are delightful; and the climate is about the healthiest in South Wales. The town has a post office&Dagger; under Carmarthen, a comfortable hotel, warm baths, a town hall, a new sub parochial church, and three dissenting chapels, Indedent, Calvinistic Methodist, and Wesleyan. The church is served by a perpetual curate, who is appointed by the inhabitants, and has a salary of &pound;50. The quarter sessions for the county are held at Aberayron in Jan., April, July, and Oct.; and markets are held on Wednesday and Saturday, and a fair on 13 Dec. A circular camp, called Castell Cadwgan, and believed to have been formed in 1148 by Cadwgan ap Bleddyn, is on the shore. Mynach dy, the seat of the proprietor of the town, is in the neighbourhood, and is supposed to occupy the site of a monastery. Pop. of the town not separately returned.&#151;The district of Aberayron comprehends the subdistrict of Llandisilio, containing the parishes of Dihewid, Llanarth, Llandisilio Gogo, Llanllwchaiarn, and Llanina, and the subdistrict of Llansaintffraid, containing the parishes of Llanfihangel-Ystrad, Cilcennin, Cilie-Aeron, Llanerch-Ayron, Henfynyw, Llanddewi-Aberarth, Llanbadarn-Tref-Eglwys, and Llansaintffraid. Acres, 67,704; of which 556 are water. Poor-rates in 1866, &pound;5,109. Pop. in 1841, 12,875; in 1861, 13,540. Houses, 3,163. Marriages in 1866, 82; births, 405,-of which 47 were illegitimate; deaths, 239,-of which 51 were at ages under 5 years, and 13 at ages upwards of 85. Marriages in the ten years 1851-60, 880; births, 3,953; deaths, 2,643. The places of worship in 1851 were 16 of the Church of England, with 3,537 sittings; 11 of Independents, with 3,168 s.; 11 of Calvinistic Methodists, with 3,260 s.; 3 of Wesleyan Methodists, with 330 s.; 2 of Baptists, with 360 s.; and 4 of Unitarians, with 698 s. The schools in 1851 were 12 public day schools, with 930 scholars; 15 private day schools, with 537 s.; and 44 Sunday schools, with 5,121 s. The workhouse is in Llanddewi-Aberarth.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26274",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/670",
+      "sourceId": "670"
+    },
+    {
+      "id": 26735,
+      "title": "Aberafan",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Aberafan",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Aberavan",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Aberavon",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1891"
+                    }
+                  }
+                ]
+              },
+              "year": "1891",
+              "label": "Population tables 2, Table 4"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1851"
+                    }
+                  }
+                ]
+              },
+              "year": "1851",
+              "label": "Population tables 2, Table [1]"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1998"
+                    }
+                  }
+                ]
+              },
+              "year": "1998",
+              "label": "Parliamentary Constituencies and their registers since 1832"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            }
+          ]
+        },
+        {
+          "toponym": "Glamorganshire Aberavon",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1954"
+                    }
+                  }
+                ]
+              },
+              "year": "1954",
+              "label": "First Periodical Report"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1998"
+                    }
+                  }
+                ]
+              },
+              "year": "1998",
+              "label": "Parliamentary Constituencies and their registers since 1832"
+            }
+          ]
+        },
+        {
+          "toponym": "Port Talbot",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1931"
+                    }
+                  }
+                ]
+              },
+              "year": "1931",
+              "label": "County Report Part I, Table 4"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "end": {
+                "in": "1998"
+              },
+              "start": {
+                "in": "1851"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested between 1851 and 1998",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -3.82006,
+            51.60224
+          ],
+          "geowkt": "POINT (-3.82006 51.60224)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Glamorgan",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17466",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABERAVON</b>, a town and a parish at the mouth of the river Avon, in the district of Neath, Glamorgan. The town stands on the South Wales railway, in the western vicinity of Taibach, 5&frac12; miles SSE of Neath, and 32&frac14; WNW of Cardiff. It is a borough, municipal and par liamentary, and a sub-port under the port of Swansea. It consists of an old part, a little inland, which is Aberavon-proper, and a new part, on the shore, which em braces the harbour, and is called Port-Talbot. It has a post office&Dagger; of its own name under Taibach, and a station of the name of Port-Talbot on the railway. It was recently a small village, but has grown rapidly in connexion with neighboring mines and the export of their produce. Its harbour was highly improved in 1838 by a new cut for the river, and gives floating accommodation with considerable depth. Numerous coasting vessels frequent it; and steamers come from Bristol. Fairs are held on the second Friday in May, and on 24 June, 1 July, 14 Aug., 7 Oct., and 1 Nov. The municipal borough lies wholly in Aberavon parish, and is governed by a portreeve and two aldermen. The parliamentary borough includes also part of Margam parish, and part of the hamlet of Upper Michaelstone; and is linked in the franchise with Swansea. Pop. in 1851, 6,567; in 1861, 7,754. Houses, 1,423.&#151;The parish comprises 1,943 acres of land and 655 of water.-Real property, &pound;5,073. Pop. in 1831, 573; in 1861, 2,916. Houses, 531. The property is much sub-divided. The living is a vicarage, united to Baglan, in the diocese of Llandaff. Value, &pound;154.* Patron, G. Llewellyn, Esq. The church is an edifice in the middle pointed style; consists of nave, chancel, and south aisle, with a tower; and was built in 1860, at a cost of &pound;2,120. There are chapels for Independents, Baptists, Calvinistic Methodists, Primitive Methodists, Bible Christians, and Roman Catholics. Some remains exist on Aberavon Myndyd hill, of the castle of Caradoc ab Jestyn, which was destroyed in 1150. Some interesting localities are in the neighborhood. See Taibach, Margam, Cwm-Avon, and Baglan.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26735",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/1138",
+      "sourceId": "1138"
+    },
+    {
+      "id": 26476,
+      "title": "Aber Carn",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Aber Carn",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Abercarn",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1891"
+                    }
+                  }
+                ]
+              },
+              "year": "1891",
+              "label": "Population tables 2, Table 4"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            }
+          ]
+        },
+        {
+          "toponym": "Abercarne",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "end": {
+                "in": "1969"
+              },
+              "start": {
+                "in": "1872"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested between 1872 and 1969",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -3.12546,
+            51.6661
+          ],
+          "geowkt": "POINT (-3.12546 51.6661)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Monmouthshire",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17183",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABERCARN</b>, a town in Mynyddyslwyn parish, Monmouth; on the W. Valleys railway, 10&frac12; miles NW of New port. It has a post office&Dagger; under Newport, Monmouth, a r. station, chemical works, iron and tin-plate works, and extensive collieries. A. House is a seat of Lorg Llanover",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26476",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/876",
+      "sourceId": "876"
+    },
+    {
+      "id": 26650,
+      "title": "Aberdar",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Abercwmboi",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Aberdar",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Aberdare",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1961"
+                    }
+                  }
+                ]
+              },
+              "year": "1961",
+              "label": "County Report, Table 3"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1891"
+                    }
+                  }
+                ]
+              },
+              "year": "1891",
+              "label": "Population tables 2, Table 4"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1998"
+                    }
+                  }
+                ]
+              },
+              "year": "1998",
+              "label": "Parliamentary Constituencies and their registers since 1832"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": ""
+                    }
+                  }
+                ]
+              },
+              "year": "",
+              "label": "Great Britain Historical GIS Project"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1760"
+                    }
+                  }
+                ]
+              },
+              "year": "1760",
+              "label": "The Journal of John Wesley"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            }
+          ]
+        },
+        {
+          "toponym": "Aberdare And Mountain Ash",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": ""
+                    }
+                  }
+                ]
+              },
+              "year": "",
+              "label": "Labour Gazette"
+            }
+          ]
+        },
+        {
+          "toponym": "Glamorganshire Aberdare",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1954"
+                    }
+                  }
+                ]
+              },
+              "year": "1954",
+              "label": "First Periodical Report"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "start": {
+                "in": "1998"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested in 1998",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -3.45368,
+            51.70899
+          ],
+          "geowkt": "POINT (-3.45368 51.70899)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Glamorgan",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17466",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABERDARE</b>, a town, a parish, and a subdistrict, in the district of Merthyr-Tydvil, Glamorgan. The town stands at the confluence of the Dare and the Cynon, 4 miles SW of Merthyr-Tydvil, and 24 NNW of Cardiff. A railway and a canal connect it with Cardiff; and a junction branch, 1&frac12; mile long, connects it with the railway from Merthyr-Tydvil to Neath. The scenery around it is picturesque. Extensive collieries and ironworks are adjacent; and these have raised the place, since about the year 1835, from the condition of a village to the condition of a large and flourishing town. The town has a telegraph station, a head post office,&Dagger; two hotels, three banking offices, an elegant church called St. Elvan's, another church in the French pointed style built in 1865, two other churches, several dissenting chapels, a public park formed in 1868, markets on Wednesday and Saturday, and three annual fairs.</p><p>The parish contains the hamlets of Cefnpennar, Cwmdare, Forchaman, and Llwydcoed; and is all within the parliamentary burgh of Merthyr-Tydvil. Acres, 16,310. Real property in Cefnpennar, &pound;32,867,-of which &pound;23,096 are in mines and ironworks; in Cwmdare, &pound;32,794, -of which &pound;12,374 are in mines and ironworks; in For chaman, &pound;54,871,-of which &pound;31,718 are in mines and ironworks; in Llwydcoed, &pound;29,874,-of which &pound;26,457 are in mines and ironworks. Pop. of the parish in 1841, 6,471; in 1861, 32,299. Houses, 5,834. The property is subdivided. Abernant House, the seat of one of the principal proprietors, adjoins the town. The living is a vicarage, united with the chapelries of St. Elvan, Hirwain, and St. Mary, in the diocese of Llandaff. Value, &pound;305.* Patron, the Marquis of Bute. The vicarage of St. Fagan and the p. curacy of Mountain-Ash are separate. Value of St. F., &pound;300.* Patron, the Bishop of L. The Welsh poet Owen was a native, and the dissenting theologian E. Evans died here.-The subdistrict comprehends three parishes. Pop., 37,487.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26650",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/1052",
+      "sourceId": "1052"
+    },
+    {
+      "id": 26477,
+      "title": "Abergavenny",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Abergavenny",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1891"
+                    }
+                  }
+                ]
+              },
+              "year": "1891",
+              "label": "Population tables 2, Table 4"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1851"
+                    }
+                  }
+                ]
+              },
+              "year": "1851",
+              "label": "Population tables 2, Table [1]"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": ""
+                    }
+                  }
+                ]
+              },
+              "year": "",
+              "label": "Great Britain Historical GIS Project"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": ""
+                    }
+                  }
+                ]
+              },
+              "year": "",
+              "label": "Statement of the Names of the Several Unions and Poor Law Parishes of England and Wales; and of the Population, Area, and Rateable Value thereof in 1881"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1991"
+                    }
+                  }
+                ]
+              },
+              "year": "1991",
+              "label": "Local Administrative Units: Northern England"
+            }
+          ]
+        },
+        {
+          "toponym": "Abergavenny Rural",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Abergavenny Urban",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Monmouthshire Northern",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1998"
+                    }
+                  }
+                ]
+              },
+              "year": "1998",
+              "label": "Parliamentary Constituencies and their registers since 1832"
+            }
+          ]
+        },
+        {
+          "toponym": "Northern Monmouthshire",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1998"
+                    }
+                  }
+                ]
+              },
+              "year": "1998",
+              "label": "Parliamentary Constituencies and their registers since 1832"
+            }
+          ]
+        },
+        {
+          "toponym": "Y Fenni",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "start": {
+                "in": "1998"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested in 1998",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -3.02961,
+            51.8366
+          ],
+          "geowkt": "POINT (-3.02961 51.8366)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Monmouthshire",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17183",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>Abergavenny</b>, par. and market town, in the above hundred, at confluence of Gavenny and Usk rivers, 17&frac14; miles N. of Newport and 165 miles from London by rail -- par., 4251 ac. (32 water), pop. 7886; town, pop. 6941; P.O., T.O., 2 Banks, 1 newspaper. Market-days, <i>Tuesday</i> and <i>Friday</i>. It has remains of Norman castle; and extensive collieries and iron-works are in the vicinity.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26477",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/877",
+      "sourceId": "877"
+    },
+    {
+      "id": 26759,
+      "title": "Abergele",
+      "dataset": "Vision of Britain (partial)",
+      "dataset_id": 54,
+      "names": [
+        {
+          "toponym": "Abergele",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1887"
+                    }
+                  }
+                ]
+              },
+              "year": "1887",
+              "label": "Gazetteer of the British Isles"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1961"
+                    }
+                  }
+                ]
+              },
+              "year": "1961",
+              "label": "County Report, Table 3"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1881"
+                    }
+                  }
+                ]
+              },
+              "year": "1881",
+              "label": "Population tables 2, Table 5"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1872"
+                    }
+                  }
+                ]
+              },
+              "year": "1872",
+              "label": "Imperial Gazetteer of England and Wales"
+            }
+          ]
+        },
+        {
+          "toponym": "Abergele And Pensarn",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1891"
+                    }
+                  }
+                ]
+              },
+              "year": "1891",
+              "label": "Population tables 2, Table 4"
+            },
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1911"
+                    }
+                  }
+                ]
+              },
+              "year": "1911",
+              "label": "Population tables 2, Table 5"
+            }
+          ]
+        },
+        {
+          "toponym": "Abergele Rural",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        },
+        {
+          "toponym": "Abergele Urban",
+          "when": null,
+          "citations": [
+            {
+              "when": {
+                "timespans": [
+                  {
+                    "start": {
+                      "in": "1969"
+                    }
+                  }
+                ]
+              },
+              "year": "1969",
+              "label": "Welsh Administrative and Territorial Units"
+            }
+          ]
+        }
+      ],
+      "whens": [
+        {
+          "timespans": [
+            {
+              "end": {
+                "in": "1969"
+              },
+              "start": {
+                "in": "1872"
+              }
+            }
+          ],
+          "periods": [],
+          "label": "Attested between 1872 and 1969",
+          "duration": null,
+          "certainty": null
+        }
+      ],
+      "geoms": [
+        {
+          "type": "Point",
+          "coordinates": [
+            -3.56245,
+            53.28994
+          ],
+          "geowkt": "POINT (-3.56245 53.28994)",
+          "hasWhen": null
+        }
+      ],
+      "types": [
+        {
+          "typeLabel": "inhabited place",
+          "typeIdentifier": "aat:300008375",
+          "sourceLabel": null,
+          "hasWhen": null
+        }
+      ],
+      "links": [],
+      "related": [
+        {
+          "label": "part of Denbighshire",
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://www.visionofbritain.org/place/17246",
+          "hasWhen": null,
+          "citations": null,
+          "certainty": null
+        }
+      ],
+      "descriptions": [
+        {
+          "descriptionValue": "<b>ABERGELE</b>, a village, a parish, and a subdistrict on the coast of the district of St. Asaph, Denbigh. The village stands near the Chester and Holyhead railway, 7 miles WNW of St. Asaph, and 34&frac14; W of Chester. It has a station, with telegraph, on the railway, a head post office,&Dagger; and two hotels; and it is a seat of petty sessions, a seaport, and a watering-place. It consists chiefly of one wide, irregular street, along the highway, about &frac12; a mile from the shore. A weekly market is held on Saturday; and fairs are held on 2 April, on the day before Holy Thursday, on 18 June, 20 Aug., 9 Oct., and 6 Dec. The beach is excellent bathing-ground; and the surrounding scenery, of coast and mountain, is magnificent. Limestone is extensively shipped; lead, copper, and manganese occur in the neighbourhood; and some fine studies for the geologist, in varieties of rock, are near. Castell-Cawr, on a high rock about a mile inland from the church, is one of the most perfect Roman camps in Wales; and Gorddyn-Mawr, on Coppa'r Wylfa, or \"the mount of the watch-tower,\" a mile further W, is a large, strong, British hill-fort. Gwrych Castle, the seat of L. H. B. Hesketh, Esq., under a high hill on the coast, about a mile W of the village, is a modern castel lated edifice, with a frontage of 480 yards, a tower 93 feet high, and 17 turrets; and the grounds around it command delightful views, but they are not open to the public. Cave hill, in the vicinity of Gwrych, is a cal careous rock, pierced with several curious caverns; and one of these, called Cefn Ogo, has an entrance-arch 30 feet high, makes a brilliant display of stalactites and stalagmites, goes very far into the bowels of the hill, but cannot be safely explored beyond 40 yards, and was the place where Richard II. lay concealed, when betrayed to Bolingbroke by Percy. Brynffanigle, within Abergele, was the residence of Marchudd ab Cynon, Prince of North Wales; and an old mansion, now demolished, was the home of some of the early life of the poet, Mrs. Hemans. The parish includes the townships of Abergele, Bodorryn, Botegwel, Brynffanigle, Dolganned, Fowyn-Isaf, Garth-Gogo, Gwrych, Hendre-Gyda-Isaf, Hendre-Gyda-Uchaf, Nant, Sirior, and Twyn-Isaf and Uchaf. Acres, together with the parish of St. George, 1,998 of land, and 2,055 of water. Real property, &pound;9,386. Pop., 3,308. Houses, 727. The property is not much divided. The living is a vicarage in the diocese of St. Asaph. Value, &pound;400. Patron, the Bishop of St. Asaph. The church is a neat good structure, of the time of Henry VIII There are Independent, Bap tist, Calvinistic-Methodist, and Wesleyan chapels, and charities &pound;13.-The subdistrict comprises five parishes. Acres, 22,145. Pop., 6,543. Houses, 1,455.",
+          "language": "en",
+          "source": null
+        }
+      ],
+      "@id": "http://localhost:8001/api/place/26759",
+      "dataset_uri": "http://localhost:8001/api/datasets/?label=vob2000",
+      "sourceUri": "https://www.visionofbritain.org.uk/place/1163",
+      "sourceId": "1163"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "@context": "https://github.com/kgeographer/_graph/blob/main/lpo/lpo_context.jsonld",
+  "@id": "http://whgazetteer.org/place/123",
+  "@type": "Place",
+  "title": "Tbilisi",
+  "dataset_uri": "https://whgazetteer.org/api/datasets/?id=22",
+  "whens": {
+    "@type": "When",
+    "timespans": [
+      {
+        "@type": "Timespan",
+        "start":{"in":"1600"}, 
+        "end":{"latest": "1800"}}
+    ],
+    "periods": [
+      { 
+        "@type": "Period",
+        "periodName": "Anglo-Saxon Period, 449-1066",
+        "@id": "periodo:p06c6g3whtg"
+      }
+    ],
+    "hasLabel": {
+      "@type": "Label",
+      "labelValue": "couple hundred years"
+    },
+    "duration": "P100Y",
+    "certainty": "less-certain"
+  },
+
+  "names": [
+    {
+      "@type": "PlaceName",
+      "toponym": "Tbilisi",
+      "language": "en",
+      "citations": [
+        { "@type": "Citation",
+          "@id": "https://foo.com", 
+          "year": "1830",
+          "hasLabel": {
+            "@type": "Label",
+            "labelValue": "Ye Olde Gazetteer"
+          }
+        }
+      ],
+      "hasWhen":{
+        "@type": "When",
+        "timespans": [
+          {
+            "@type": "Timespan",
+            "start":{"in":"1600"}, 
+            "end":{"latest": "1800"}
+          }
+        ]
+      },
+    }
+  ],
+
+  "types": [
+    {
+      "@type": "PlaceType",
+      "typeLabel": "City",
+      "typeIdentifier": "http://vocab.getty.edu/page/aat/300008389",
+      "sourceLabels": [
+        { "@type": "Label",
+          "labelValue": "Capital", 
+          "language":"en"}
+      ],
+      "hasWhen": {
+        "@type": "When",
+        "timespans": [
+          {
+            "@type": "Timespan",
+            "start":{"in": "-600"}, 
+            "end":{"latest": "-300"}
+          }
+        ]
+      }
+    }
+  ],
+
+  "geoms": [
+    {
+      "@type": "PlaceGeom",
+      "type": "Point",
+      "coordinates": [-1.2879, 51.6708],
+      "geowkt": "POINT(-1.2879 51.6708)",
+      "hasWhen": {
+        "@type": "When",
+        "timespans": [
+          {
+            "@type": "Timespan",
+            "start": {
+              "@type": "TimeExpression",
+              "in": "1600-01-01"
+            },
+            "end": {
+              "@type": "TimeExpression",
+              "earliest": "1699-12-31"
+            }
+          }
+        ]
+      },
+      "citations": [
+        { "@type": "Citation",
+          "@id": "https://foo.com", 
+          "year": "2024",
+          "hasLabel": {
+            "@type": "Label",
+            "labelValue": "GeoNames"
+          }
+        }
+      ],  
+      "certainty": "less-certain"
+    },
+    {
+      "@type": "PlaceGeom",
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-1.3077, 51.6542],
+          [-1.2555, 51.6542],
+          [-1.2555, 51.6908],
+          [-1.3077, 51.6908],
+          [-1.3077, 51.6542]
+        ]
+      ],
+      "geowkt": "POLYGON((-1.3077 51.6542, -1.2555 51.6542, -1.2555 51.6908, -1.3077 51.6908, -1.3077 51.6542))",
+      "hasWhen": {
+        "@type": "When",
+        "timespans": [
+          {
+            "@type": "Timespan",
+            "start": {
+              "@type": "TimeExpression",
+              "in": "1700-01-01"
+            }
+          }
+        ]
+      },
+      "certainty": "certain"
+    }
+  ],
+
+  "links": [
+    {
+      "@type": "closeMatch",
+      "linkIdentifier": "gn:1234567",
+    }
+  ],
+
+  "relations": [
+    {
+      "@type": "PlaceRelation",
+      "relationType": "http://vocab.getty.edu/ontology#broaderPartitive",
+      "relationTo": "http://example.org/place/999",
+      "relationLabel": "within Galicia",
+      "hasWhen": {
+        "@type": "When",
+        "timespans": [
+          {
+            "@type": "Timespan",
+            "start":{"in": "-600"}, 
+            "end":{"latest": "-300"}
+          }
+        ]
+      },
+      "citations": [{
+        "@type": "Citation",
+        "hasLabel": {
+          "@type": "Label",
+          "labelValue": "Harrumph (1923)"
+        },
+        "year": "1923",
+        "@id": "doi:10.1109/5.771073"
+      }],
+      "certainty": "uncertain"
+    }
+  ],
+
+  "descriptions": [
+    {
+      "@type": "PlaceDescription",
+      "descriptionValue": "A sample place description.",
+      "language": "en",
+      "source": "http://wikipedia.com/Tbilisi"
+    }
+  ],
+
+  "depictions": [
+    {
+      "@type": "PlaceDepiction",
+      "@id": "http://example.org/images/sample1.jpg",
+      "title": "Aerial view of the place.",
+      "licence": "cc:by-sa/3.0/"
+    }
+  ]
+}
+
