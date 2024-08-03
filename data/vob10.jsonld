@@ -1,5 +1,5 @@
 {
-  "@context": "https://github.com/kgeographer/_graph/blob/main/lpo/lpo_context.jsonld",
+  "@context": "https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_context.jsonld",
   "@graph": [
     {
       "id": 26960,

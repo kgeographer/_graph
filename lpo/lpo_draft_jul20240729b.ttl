@@ -139,7 +139,7 @@ lpo:sourceLabels a owl:ObjectProperty ;
     rdfs:comment "The source-specific labels for the type." .
 
 ## PlaceGeom Properties
-lpo:geometryType a owl:DatatypeProperty ;
+lpo:geoType a owl:DatatypeProperty ;
     rdfs:domain lpo:PlaceGeom ;
     rdfs:range xsd:string ;
     rdfs:label "geometry type" ;
@@ -182,6 +182,11 @@ lpo:linkIdentifier a owl:DatatypeProperty ;
     rdfs:range xsd:anyURI ;
     rdfs:label "link identifier" ;
     rdfs:comment "An identifier or URI linking to an external record." .
+lpo:linkType a owl:DatatypeProperty ;
+    rdfs:domain lpo:PlaceLink ;
+    rdfs:range xsd:string ;
+    rdfs:label "link type" ;
+    rdfs:comment "name of relation" .
 
 ##
 ## Generic elements: 
@@ -224,13 +229,6 @@ lpo:certainty a owl:DatatypeProperty ;
 lpo:Citation a owl:Class ;
     rdfs:label "Citation" ;
     rdfs:comment "A citation or reference associated with an entity" .
-
-lpo:hasCitation a owl:ObjectProperty ;
-    rdfs:label "has citation" ;
-    rdfs:comment "Relates an entity to its citation" ;
-    rdfs:domain [ a owl:Class ;
-                  owl:unionOf (lpo:PlaceName lpo:PlaceGeom lpo:PlaceRelation) ] ;
-    rdfs:range lpo:Citation .
 
 lpo:year a owl:DatatypeProperty ;
     rdfs:domain lpo:Citation ;

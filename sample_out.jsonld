@@ -51,7 +51,7 @@
             "end":{"latest": "1800"}
           }
         ]
-      },
+      }
     }
   ],
 
@@ -81,7 +81,7 @@
   "geoms": [
     {
       "@type": "PlaceGeom",
-      "type": "Point",
+      "geoType": "Point",
       "coordinates": [-1.2879, 51.6708],
       "geowkt": "POINT(-1.2879 51.6708)",
       "hasWhen": {
@@ -144,7 +144,7 @@
   "links": [
     {
       "@type": "closeMatch",
-      "linkIdentifier": "gn:1234567",
+      "linkIdentifier": "gn:1234567"
     }
   ],
 
