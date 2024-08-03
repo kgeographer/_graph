@@ -30,7 +30,6 @@
       "@type": "geo:wktLiteral"
     },
 
-
     "PlaceLink": "lpo:PlaceLink",
     "linkIdentifier": "lpo:linkIdentifier",
     "linkType": "lpo:linkType",
@@ -62,6 +61,35 @@
 
     "Label": "lpo:Label",
     "labelValue": "lpo:labelValue",
-    "language": "lpo:language"
+    "language": "lpo:language",
+
+    "names": {
+      "@id": "lpo:hasName",
+      "@container": "@list"
+    },
+    "types": {
+      "@id": "lpo:hasType",
+      "@container": "@list"
+    },
+    "whens": {
+      "@id": "lpo:hasWhen",
+      "@container": "@list"
+    },
+    "geoms": {
+      "@id": "lpo:hasGeom",
+      "@container": "@list"
+    },
+    "links": {
+      "@id": "lpo:hasLink",
+      "@container": "@list"
+    },
+    "relations": {
+      "@id": "lpo:hasRelation",
+      "@container": "@list"
+    },
+    "descriptions": {
+      "@id": "lpo:hasDescription",
+      "@container": "@list"
+    }
   }
 }
