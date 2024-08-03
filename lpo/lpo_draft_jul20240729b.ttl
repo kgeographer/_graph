@@ -51,6 +51,10 @@ lpo:PlaceGeom a rdfs:Class ;
     rdfs:label "Place Geometry" ;
     rdfs:comment "A geometry representing a place." .
 
+lpo:PlaceWhen a owl:Class ;
+    rdfs:label "Place When" ;
+    rdfs:comment "Represents the temporal scope of an entire Place." .
+
 lpo:PlaceLink a rdfs:Class ;
     rdfs:subClassOf skos:closeMatch ;
     rdfs:label "Place Link" ;
@@ -87,6 +91,12 @@ lpo:hasGeometry a owl:ObjectProperty ;
     rdfs:label "has geometry" ;
     rdfs:comment "Relates a place to its geometry." .
 
+lpo:hasWhen a owl:ObjectProperty ;
+    rdfs:domain lpo:Place ;
+    rdfs:range lpo:PlaceWhen ;
+    rdfs:label "has when" ;
+    rdfs:comment "Relates a place to its associated temporal information." .
+    
 lpo:hasLink a owl:ObjectProperty ;
     rdfs:domain lpo:Place ;
     rdfs:range lpo:PlaceLink ;
