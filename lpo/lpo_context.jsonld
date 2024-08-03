@@ -72,7 +72,7 @@
       "@container": "@list"
     },
     "whens": {
-      "@id": "lpo:hasWhen",
+      "@id": "lpo:whens",
       "@container": "@list"
     },
     "geoms": {
