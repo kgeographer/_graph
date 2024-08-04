@@ -91,17 +91,17 @@ lpo:hasGeometry a owl:ObjectProperty ;
     rdfs:label "has geometry" ;
     rdfs:comment "Relates a place to its geometry." .
 
-lpo:hasWhen a owl:ObjectProperty ;
+lpo:whens a owl:ObjectProperty ;
     rdfs:domain lpo:Place ;
-    rdfs:range lpo:PlaceWhen ;
-    rdfs:label "has when" ;
-    rdfs:comment "Relates a place to its associated temporal information." .
-    
+    rdfs:range rdf:List ;
+    rdfs:label "whens" ;
+    rdfs:comment "Relates a place to a collection of temporal information objects." .
+
 lpo:hasLink a owl:ObjectProperty ;
     rdfs:domain lpo:Place ;
     rdfs:range lpo:PlaceLink ;
     rdfs:label "has link" ;
-    rdfs:comment "Asserts skos:closeMatch to another record." .
+    rdfs:comment "skos:closeMatch to another record." .
 
 lpo:hasDescription a owl:ObjectProperty ;
     rdfs:domain lpo:Place ;
@@ -214,7 +214,7 @@ lpo:hasLabel a owl:ObjectProperty ;
               owl:unionOf (lpo:When lpo:Citation lpo:Period)] ;
     rdfs:range lpo:Label ;
     rdfs:label "has label" ;
-    rdfs:comment "Relates an entity to its associated label." .
+    rdfs:comment "Relates an entity to associated label." .
 
 lpo:labelValue a owl:DatatypeProperty ;
     rdfs:domain lpo:Label ;
@@ -223,7 +223,8 @@ lpo:labelValue a owl:DatatypeProperty ;
     rdfs:comment "The text of the label." .
 
 lpo:language a owl:DatatypeProperty ;
-    rdfs:domain lpo:Label ;
+    rdfs:domain [ a owl:Class ;
+                    owl:unionOf (lpo:Label lpo:PlaceName )];
     rdfs:range xsd:string ;
     rdfs:label "language" ;
     rdfs:comment "The language of the label text." .
@@ -246,7 +247,7 @@ lpo:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:comment "The year of the citation, 4 digits with optional '-' for BCE)." .
 
-# When (common to places, names, types, geoms, relations)
+# When (common to types, relations, citations, geometry(?)
 lpo:When a rdfs:Class ;
     rdfs:label "When" ;
     rdfs:comment "Temporal information associated with an element." .
@@ -255,14 +256,8 @@ lpo:hasWhen a owl:ObjectProperty ;
     rdfs:label "has when" ;
     rdfs:comment "Relates an entity to its temporal information" ;
     rdfs:domain [ a owl:Class ;
-                  owl:unionOf (lpo:PlaceName lpo:PlaceType lpo:PlaceRelation lpo:PlaceGeom) ] ;
+                  owl:unionOf (lpo:PlaceType lpo:PlaceRelation lpo:Citation) ] ;
     rdfs:range lpo:When .
-
-lpo:whens a owl:ObjectProperty ;
-    rdfs:label "whens" ;
-    rdfs:comment "Relates a place to a collection of temporal information objects." ;
-    rdfs:domain lpo:Place ;
-    rdfs:range rdf:List .
 
 # timespans property (list)
 lpo:timespans a owl:ObjectProperty ;
