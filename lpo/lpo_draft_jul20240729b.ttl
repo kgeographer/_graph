@@ -93,7 +93,7 @@ lpo:hasGeometry a owl:ObjectProperty ;
 
 lpo:whens a owl:ObjectProperty ;
     rdfs:domain lpo:Place ;
-    rdfs:range rdf:List ;
+    rdfs:range lpo:PlaceWhen ;
     rdfs:label "whens" ;
     rdfs:comment "Relates a place to a collection of temporal information objects." .
 

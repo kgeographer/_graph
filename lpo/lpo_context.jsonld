@@ -45,7 +45,7 @@
 
     "When": "lpo:When",
     "hasWhen": "lpo:hasWhen",
-    "whens": {"@id": "lpo:whens", "@container": "@list"},
+    "whens": {"@id": "lpo:whens", "@container": "@set"},
 
     "TimeExpression": "lpo:TimeExpression",
     "Timespan": "lpo:Timespan",
