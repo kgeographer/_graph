@@ -1,7 +1,7 @@
 {
   "@context": {
     "geojson": "https://purl.org/geojson/vocab#",
-    "lpo": "https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl",
+    "lpo": "https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "geo": "http://www.opengis.net/ont/geosparql#",
 
