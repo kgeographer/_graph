@@ -22,7 +22,7 @@
     "sourceLabels": "lpo:sourceLabels",
 
     "PlaceGeom": "lpo:PlaceGeom",
-    "coordinates": {"@id": "lpo:coordinates", "@type": "@json"},
+    "coordinates": {"@id": "lpo:coordinates"},
     "geowkt": "lpo:geowkt",
     "geoType": "lpo:geoType",
     "asWKT": {

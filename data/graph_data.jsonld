@@ -1,0 +1,208 @@
+{
+    "@context": "https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_context.jsonld",
+    "@graph": [
+        {
+            "title": "Aberafan",
+            "dataset": "Vision of Britain (partial)",
+            "dataset_id": 54,
+            "names": [
+                {
+                    "toponym": "Aberafan",
+                    "hasWhen": null,
+                    "citations": [
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1969",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Welsh Administrative and Territorial Units",
+                                "language": "en"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "toponym": "Aberavan",
+                    "hasWhen": null,
+                    "citations": [
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1969",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Welsh Administrative and Territorial Units",
+                                "language": "en"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "toponym": "Aberavon",
+                    "hasWhen": null,
+                    "citations": [
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1887",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Gazetteer of the British Isles",
+                                "language": "en"
+                            }
+                        },
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1891",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Population tables 2, Table 4",
+                                "language": "en"
+                            }
+                        },
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1911",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Population tables 2, Table 5",
+                                "language": "en"
+                            }
+                        },
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1851",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Population tables 2, Table [1]",
+                                "language": "en"
+                            }
+                        },
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1998",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Parliamentary Constituencies and their registers since 1832",
+                                "language": "en"
+                            }
+                        },
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1872",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Imperial Gazetteer of England and Wales",
+                                "language": "en"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "toponym": "Glamorganshire Aberavon",
+                    "hasWhen": null,
+                    "citations": [
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1954",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "First Periodical Report",
+                                "language": "en"
+                            }
+                        },
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1998",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "Parliamentary Constituencies and their registers since 1832",
+                                "language": "en"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "toponym": "Port Talbot",
+                    "hasWhen": null,
+                    "citations": [
+                        {
+                            "@type": "lpo:Citation",
+                            "year": "1931",
+                            "hasLabel": {
+                                "@type": "lpo:Label",
+                                "labelValue": "County Report Part I, Table 4",
+                                "language": "en"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "whens": [
+                {
+                    "@type": "lpo:PlaceWhen",
+                    "timespans": [
+                        {
+                            "end": {
+                                "in": "1998"
+                            },
+                            "start": {
+                                "in": "1851"
+                            }
+                        }
+                    ],
+                    "periods": [],
+                    "hasLabel": {
+                        "@type": "lpo:Label",
+                        "labelValue": "Attested between 1851 and 1998"
+                    },
+                    "duration": null,
+                    "certainty": null
+                }
+            ],
+            "geoms": [
+                {
+                    "geoType": "Point",
+                    "coordinates": [
+                        -3.82006,
+                        51.60224
+                    ],
+                    "asWKT": "POINT (-3.82006 51.60224)",
+                    "hasWhen": null,
+                    "certainty": null,
+                    "citations": []
+                }
+            ],
+            "types": [
+                {
+                    "typeLabel": "inhabited place",
+                    "typeIdentifier": "aat:300008375",
+                    "sourceLabel": null,
+                    "hasWhen": null
+                }
+            ],
+            "links": [],
+            "related": [
+                {
+                    "relationLabel": "part of Glamorgan",
+                    "relationType": "gvp:broaderPartitive",
+                    "relationTo": "https://www.visionofbritain.org/place/17466",
+                    "hasWhen": null,
+                    "certainty": null,
+                    "citations": []
+                }
+            ],
+            "descriptions": [
+                {
+                    "descriptionValue": "<b>ABERAVON</b>, a town and a parish at the mouth of the river Avon, in the district of Neath, Glamorgan. The town stands on the South Wales railway, in the western vicinity of Taibach, 5&frac12; miles SSE of Neath, and 32&frac14; WNW of Cardiff. It is a borough, municipal and par liamentary, and a sub-port under the port of Swansea. It consists of an old part, a little inland, which is Aberavon-proper, and a new part, on the shore, which em braces the harbour, and is called Port-Talbot. It has a post office&Dagger; of its own name under Taibach, and a station of the name of Port-Talbot on the railway. It was recently a small village, but has grown rapidly in connexion with neighboring mines and the export of their produce. Its harbour was highly improved in 1838 by a new cut for the river, and gives floating accommodation with considerable depth. Numerous coasting vessels frequent it; and steamers come from Bristol. Fairs are held on the second Friday in May, and on 24 June, 1 July, 14 Aug., 7 Oct., and 1 Nov. The municipal borough lies wholly in Aberavon parish, and is governed by a portreeve and two aldermen. The parliamentary borough includes also part of Margam parish, and part of the hamlet of Upper Michaelstone; and is linked in the franchise with Swansea. Pop. in 1851, 6,567; in 1861, 7,754. Houses, 1,423.&#151;The parish comprises 1,943 acres of land and 655 of water.-Real property, &pound;5,073. Pop. in 1831, 573; in 1861, 2,916. Houses, 531. The property is much sub-divided. The living is a vicarage, united to Baglan, in the diocese of Llandaff. Value, &pound;154.* Patron, G. Llewellyn, Esq. The church is an edifice in the middle pointed style; consists of nave, chancel, and south aisle, with a tower; and was built in 1860, at a cost of &pound;2,120. There are chapels for Independents, Baptists, Calvinistic Methodists, Primitive Methodists, Bible Christians, and Roman Catholics. Some remains exist on Aberavon Myndyd hill, of the castle of Caradoc ab Jestyn, which was destroyed in 1150. Some interesting localities are in the neighborhood. See Taibach, Margam, Cwm-Avon, and Baglan.",
+                    "language": "en",
+                    "source": null
+                }
+            ],
+            "@id": "http://example.org/api/place/26735",
+            "@type": "Place",
+            "place_id": 26735,
+            "dataset_uri": "http://example.org/api/datasets/?label=vob2000",
+            "sourceUri": "https://www.visionofbritain.org.uk/place/1138",
+            "sourceId": "1138"
+        }
+    ]
+}
