@@ -1,0 +1,11 @@
+predicate,object
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#Place
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#hasDescription,_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b9
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#hasGeom,_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b10
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#hasLink,http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#hasName,_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b11
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#hasType,_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b16
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#sourceId,1138
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#sourceUri,https://www.visionofbritain.org.uk/place/1138
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#title,Aberafan
+https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#whens,_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b17

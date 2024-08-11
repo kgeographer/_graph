@@ -1,0 +1,9 @@
+PREFIX lpo: <https://raw.githubusercontent.com/kgeographer/_graph/main/lpo/lpo_draft_jul20240729b.ttl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?description
+WHERE {
+  ?s lpo:hasDescription ?descNode .
+  ?descNode rdf:first ?firstElement .
+  ?firstElement lpo:descriptionValue ?description .
+}
+

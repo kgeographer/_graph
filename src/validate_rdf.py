@@ -2,7 +2,7 @@ import os
 
 from rdflib import Graph
 
-filenames = ["/lpo/lpo_draft_jul20240729b.ttl",
+filenames = ["/lpo/lpo_draft_9aug.ttl",
              "/lpo/lpo_context.jsonld",
              "/data/vob10.jsonld",]
 formats = ["ttl", "json-ld"]

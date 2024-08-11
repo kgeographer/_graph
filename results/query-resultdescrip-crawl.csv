@@ -1,0 +1,3 @@
+descNode,p,o
+_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b9,http://www.w3.org/1999/02/22-rdf-syntax-ns#first,_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b0
+_:genid-94fe603c3fdb4093afbe96d093da86f1681003-b9,http://www.w3.org/1999/02/22-rdf-syntax-ns#rest,http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
